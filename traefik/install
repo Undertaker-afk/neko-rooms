@@ -212,6 +212,7 @@ NEKO_IMAGES=(m1k1o/neko:firefox m1k1o/neko:chromium m1k1o/neko:google-chrome m1k
   echo "NEKO_ROOMS_TRAEFIK_NETWORK=neko-rooms-traefik"
   echo "NEKO_ROOMS_TRAEFIK_CERTRESOLVER=lets-encrypt"
   echo "NEKO_ROOMS_NEKO_IMAGES=${NEKO_IMAGES[*]}"
+  echo "NEKO_FILE_TRANSFER_ENABLED=true"
 } > .env
 
 echo "[Y] Creating env..."
