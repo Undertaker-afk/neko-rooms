@@ -18,7 +18,7 @@ services:
       - "NEKO_ROOMS_INSTANCE_NETWORK=neko-rooms-net"
       - "NEKO_ROOMS_TRAEFIK_ENABLED=false"
       - "NEKO_ROOMS_PATH_PREFIX=/room/"
-      - "NEKO_ROOMS_NEKO_IMAGES=m1k1o/neko:tor-browser m1k1o/neko:kde m1k1o/neko:google-chrome
+      - "NEKO_ROOMS_NEKO_IMAGES=m1k1o/neko:tor-browser m1k1o/neko:kde m1k1o/neko:google-chrome"
     ports:
       - "8080:8080"
     volumes:
