@@ -26,7 +26,7 @@ If you don't have any clue about docker and stuff but only want to have fun with
 - Secure using HTTPs thanks to Let's Encrypt and Traefik.
 
 ```bash
-wget -O neko-rooms.sh https://raw.githubusercontent.com/m1k1o/neko-rooms/master/traefik/install
+wget -O neko-rooms.sh https://raw.githubusercontent.com/Undertaker-afk/neko-rooms/master/traefik/install
 sudo bash neko-rooms.sh
 ```
 
